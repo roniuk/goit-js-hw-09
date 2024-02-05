@@ -28,7 +28,7 @@ const images = [
     description: "mobile",
   },
   {
-    preview: "/images/mitting_room4.1.png",
+    preview: "./images/mitting_room4.1.png",
     original: "/images/mitting_room4.4.png",
     description: "mitting-room",
   },
