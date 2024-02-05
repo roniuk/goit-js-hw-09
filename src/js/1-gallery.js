@@ -3,6 +3,13 @@ import SimpleLightbox from "simplelightbox";
 // Додатковий імпорт стилів
 import "simplelightbox/dist/simple-lightbox.min.css";
 const images = [
+     {
+    preview:
+      "https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_1280.jpg",
+    description: "Hokkaido Flower",
+  },
   {
                 preview: "/images/schema11.jpg",
                 original: "/images/schema1.4.png",
