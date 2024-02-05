@@ -11,7 +11,7 @@ const images = [
     description: "Hokkaido Flower",
   },
   {
-    preview: "src/img/koffe7.1.png",
+    preview: "./src/css/koffe7.1.png",
     original: "./goit-js-hw-09/images/schema1.4.png",
     description: "schema",
   },
