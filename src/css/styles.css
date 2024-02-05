@@ -1,59 +1,37 @@
-body {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./1-gallery.css');
+@import url('./2-form.css');
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
-li {
-  width: 362px;
+.nav-link {
+  text-decoration: none;
 }
 
-ul {
-  max-width: 1158px;
+.nav {
+  list-style-type: none;
 }
 
-.gallery-container {
-  max-width: 1200px;
-  width: 100%;
-}
 
-img {
-  width: 1200px;
-}
-.gallery {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  /* Це вирівнює елементи по горизонталі по центру */
-}
 
-.gallery-item {
-  flex: 0 0 calc(33.33% - 20px); 
-  /* Розташуйте малі зображення горизонтально по три в рядку */
-  margin: 10px;
-  /* max-width: calc(33.33% - 20px);  */
-  max-width: 360px;
-  /* Фіксована ширина малого зображення */
-}
 
-.gallery-image {
-  max-width: 360px;
-}
-@media (max-width: 1024px) {
-  .gallery-item {
-    max-width: calc(50% - 20px);
-    /* Зменште ширину для екранів менше 1024px */
-  }
-}
-
-@media (max-width: 767px) {
-  .gallery-item {
-    max-width: calc(100% - 20px);
-    /* Зменште ширину для екранів менше 767px */
-  }
-}
