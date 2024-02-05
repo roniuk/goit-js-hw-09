@@ -11,8 +11,8 @@ const images = [
     description: "Hokkaido Flower",
   },
   {
-                preview: "/images/schema11.jpg",
-                original: "/images/schema1.4.png",
+                preview: "/src/images/schema11.jpg",
+                original: "./src/images/schema1.4.png",
                 description: "schema",
             },
 
