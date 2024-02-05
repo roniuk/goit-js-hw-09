@@ -11,13 +11,13 @@ const images = [
     description: "Hokkaido Flower",
   },
   {
-                preview: "/src/images/schema11.jpg",
-                original: "./src/images/schema1.4.png",
+                preview: "/goit-js-hw-09/src/images/schema11.jpg",
+                original: "./goit-js-hw-09/images/schema1.4.png",
                 description: "schema",
             },
 
             {
-                preview: "/images/lampa2.1.png",
+                preview: "/goit-js-hw-09/images/lampa2.1.png",
                 original: "/images/lampa2.4.png",
                 description: "lampa",
             },
