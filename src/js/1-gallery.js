@@ -23,7 +23,7 @@ const images = [
             },
 
             {
-                preview: "/images/mobile3.1.png",
+                preview: "/mobile3.1.png",
                 original: "/images/mobile3.4.png",
                 description: "mobile",
             },
