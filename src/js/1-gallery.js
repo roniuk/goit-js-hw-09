@@ -11,51 +11,60 @@ const images = [
     description: "Hokkaido Flower",
   },
   {
-    preview: "/src/css/koffe7.1.png",
-    original: "./goit-js-hw-09/images/schema1.4.png",
-    description: "schema",
-  },
-
-  {
-    preview: "./goit-js-hw-09/images/lampa2.1.png",
-    original: "/images/lampa2.4.png",
-    description: "lampa",
-  },
-
-  {
-    preview: "./mobile3.1.png",
-    original: "/images/mobile3.4.png",
-    description: "mobile",
+    preview:
+      "https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg",
+    description: "Container Haulage Freight",
   },
   {
-    preview: "./images/mitting_room4.1.png",
-    original: "/images/mitting_room4.4.png",
-    description: "mitting-room",
+    preview:
+      "https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785_1280.jpg",
+    description: "Aerial Beach View",
   },
   {
-    preview: "/images/tennis_room5.1.png",
-    original: "/images/tennis__room5.4.png",
-    description: "tennis",
+    preview:
+      "https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619_1280.jpg",
+    description: "Flower Blooms",
   },
   {
-    preview: "/images/work_room6.1.png",
-    original: "/images/work_room6.4.png",
-    description: "workroom",
+    preview:
+      "https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334_1280.jpg",
+    description: "Alpine Mountains",
   },
   {
-    preview: "/images/koffe7.1.png",
-    original: "/images/koffe7.4.png",
-    description: "coffe",
+    preview:
+      "https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571_1280.jpg",
+    description: "Mountain Lake Sailing",
   },
   {
-    preview: "/images/worker8.1.png",
-    original: "/images/worker8.4.png",
-    description: "worker",
+    preview:
+      "https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272_1280.jpg",
+    description: "Alpine Spring Meadows",
   },
   {
-    preview: "/images/lesson9.1.png",
-    original: "/images/lesson9.4.png",
-    description: "lesson",
+    preview:
+      "https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255_1280.jpg",
+    description: "Nature Landscape",
+  },
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg",
+    description: "Lighthouse Coast Sea",
   },
 ];
 
